@@ -135,3 +135,20 @@ ul {
     width: 120px;
     margin-bottom: 8px;
 }
+
+/* Row 3 */
+#three {
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote {
+    font-style: italic;
+    text-align: left;
+    font-size: larger;
+}
+
+#author {
+    align-self: self-end;
+    font-weight: bold;
+}
