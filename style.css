@@ -140,6 +140,7 @@ ul {
 #three {
     flex-direction: column;
     justify-content: center;
+    background-color: #e5e7eb;
 }
 
 #quote {
