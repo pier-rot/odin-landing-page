@@ -52,3 +52,35 @@ ul {
     max-height: 40px;
     margin:0 auto;
 }
+
+/* Rows */
+.row {
+    display: flex;
+    max-height: 25vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 144px 48px;
+}
+
+/* Row 1 */
+#one {
+    text-align: left;
+    flex: 1;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#one * {
+    flex: 1;
+}
+
+#one img {
+    text-align: center;
+    background-color: grey;
+    padding: auto;
+}
+
+#welcome {
+    font-size: xx-large;
+    font-weight: bolder;
+}
