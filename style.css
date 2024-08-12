@@ -186,3 +186,13 @@ ul {
 .left {
     flex: 3;
 }
+
+/* Footer */
+.footer{
+    min-height: 40px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
