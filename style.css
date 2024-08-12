@@ -153,3 +153,36 @@ ul {
     align-self: self-end;
     font-weight: bold;
 }
+
+/* Row 4 */
+.container {
+    border-radius: 8px;
+    background-color: #3882f6;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 15%;
+    text-align: left;
+    color: white;
+    gap: 32px;
+}
+
+#call {
+    font-size: large;
+    font-weight: bold;
+}
+
+.container button {
+    background-color: #3882f6;
+    border:solid 2px white;
+    border-radius: 4px;
+    color: inherit;
+    font-weight: bold;
+    padding: 0;
+    flex: 1;
+    margin: auto;
+}
+
+.left {
+    flex: 3;
+}
