@@ -3,7 +3,7 @@ body {
     text-align: center;
     margin: 0;
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
 }
 
 ul {
@@ -67,10 +67,10 @@ ul {
 /* Rows */
 .row {
     display: flex;
-    max-height: 25vh;
+    max-height: 20vh;
     align-items: center;
     justify-content: space-between;
-    padding: 0% 15% 0%;
+    padding: 5% 15% 5%;
 }
 
 /* Row 1 */
@@ -106,5 +106,32 @@ ul {
     background-color: #3882f6;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 6px;
+    font-size: large;
+}
+
+/* Row 2 */
+
+#two {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio {
+    display: flex;
+    gap: 16px;
+}
+
+#port-text {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 24px;
+
+}
+
+.card img {
+    border: solid 2px #3882f6;
+    border-radius: 8px;
+    width: 120px;
+    margin-bottom: 8px;
 }
