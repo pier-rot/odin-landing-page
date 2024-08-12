@@ -39,18 +39,29 @@ body {
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     gap: 8px;
-    margin: 0 0 0 auto;
+    flex:1;
+}
+
+.links li a{
+    border-radius:10px;
+    border: solid 2px white;
+    padding:4px;
 }
 
 .title {
-    margin: 0 auto
+    flex: 1;
+    max-height: 40px;
+}
+
+.logo-container {
+    flex:1;
+    text-align: left;
 }
 
 #logo {
     max-height: 40px;
-    margin:0 auto;
 }
 
 /* Rows */
