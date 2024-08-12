@@ -70,7 +70,7 @@ ul {
     max-height: 25vh;
     align-items: center;
     justify-content: space-between;
-    padding: 48px 144px 48px;
+    padding: 0% 15% 0%;
 }
 
 /* Row 1 */
@@ -87,11 +87,24 @@ ul {
 
 #one img {
     text-align: center;
-    background-color: grey;
     padding: auto;
+    max-width: 40%;
 }
 
 #welcome {
     font-size: xx-large;
     font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+#message {
+    font-size: smaller;
+    margin-bottom: 8px;
+}
+
+#one button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
